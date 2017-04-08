@@ -1,9 +1,9 @@
-function Convert() {
+var convert = (function () {
+
 	return {
-		numberToRomanNumeral : function (num) {			
-			
+		numberToRomanNumeral : function (number) {			
 			var numeral = "";			
-			var count = parseInt(num)
+			var count = parseInt(number)
 				
 			while (count > 0) {				
 				
@@ -46,7 +46,7 @@ function Convert() {
 				}
 			}			
 			return numeral;
-		}		
+		}
 	}
-}
+})();
 

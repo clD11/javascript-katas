@@ -1,10 +1,4 @@
-describe("when numerToRomanNumeral is called", function() {
-
-	var convert;
-	
-	beforeEach(function() {
-		convert = new Convert();
-	});
+describe("When given an integer", function() {
 
 	it("should return I when given 1", function () {
 	    expect(convert.numberToRomanNumeral(1)).toBe("I");
