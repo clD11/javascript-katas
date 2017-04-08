@@ -1,5 +1,4 @@
-
-# Javascript Katas
+# JavaScript Katas
 
 FizzBuzz - http://codingdojo.org/kata/FizzBuzz/
 
